@@ -1,0 +1,50 @@
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore virtual environment directories
+venv/
+env/
+virtualenv/
+.venv/
+
+# Ignore log files and temporary files
+logs/
+*.log
+*.log.*
+*.tmp
+
+# Ignore system and hidden files (Windows)
+Thumbs.db
+.DS_Store
+
+# Ignore Apache Airflow metadata and database
+airflow.db
+airflow.cfg
+airflow-webserver.pid
+airflow-worker.pid
+airflow-scheduler.pid
+airflow-sync.lock
+airflow/*.egg-info/
+
+# Ignore local development files
+*.env
+*.env.*
+*.local
+*.local.*
+*.sqlite
+
+# Ignore IDE specific files and directories
+.vscode/
+.idea/
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.swp
+
+# Ignore any sensitive or confidential files (customize as needed)
+config/secrets.yml
+secrets/
+
+# Ignore any other project-specific files or directories
